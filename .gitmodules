@@ -1,0 +1,21 @@
+[submodule "app/extern/voronota"]
+	path = app/extern/voronota
+	url = https://github.com/kliment-olechnovic/voronota.git
+[submodule "apo/extern/fmt"]
+	path = apo/extern/fmt
+	url = https://github.com/fmtlib/fmt.git
+[submodule "apo/extern/plf_nanotimer"]
+	path = apo/extern/plf_nanotimer
+	url = https://github.com/mattreecebentley/plf_nanotimer.git
+[submodule "apo/extern/chemfiles"]
+	path = apo/extern/chemfiles
+	url = https://github.com/chemfiles/chemfiles.git
+[submodule "app/extern/polyscope"]
+	path = app/extern/polyscope
+	url = https://github.com/nmwsharp/polyscope.git
+[submodule "app/extern/Benchmark-Dataset-for-the-Voronoi-Diagram-of-3D-Spherical-Balls"]
+	path = app/extern/Benchmark-Dataset-for-the-Voronoi-Diagram-of-3D-Spherical-Balls
+	url = https://github.com/vdrc/Benchmark-Dataset-for-the-Voronoi-Diagram-of-3D-Spherical-Balls.git
+[submodule "app/extern/Robust-Implicit-Surface-Networks"]
+	path = app/extern/Robust-Implicit-Surface-Networks
+	url = https://github.com/PlathC/Robust-Implicit-Surface-Networks.git
