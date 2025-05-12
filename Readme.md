@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">In Search of Empty Spheres: 3D Apollonius Diagrams on GPU</h1>
+  <h1 align="center"><a href="https://plathc.github.io/apollonius/apollonius.html">In Search of Empty Spheres: 3D Apollonius Diagrams on GPU</a></h1>
   <a href="">
     <img src="img/teaser.webp" alt="Logo" width="100%">
   </a>
