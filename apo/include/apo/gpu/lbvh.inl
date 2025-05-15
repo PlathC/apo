@@ -104,6 +104,8 @@ namespace apo::gpu
         heapsort( knns, knnsDistance, k );
     }
 
+    // Based on Ingo Wald's implementation in cuBQL:
+    // https://github.com/ingowald/cuBQL/blob/4c662fe2f01224b725b2afc2e3137f7263f565b6/cuBQL/queries/fcp.h#L36
     template<class Predicate>
     __device__ uint32_t LBVH::View::findIntersection( const Real4 * const spheres,
                                                       const float4        sphere,
