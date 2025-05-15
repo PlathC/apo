@@ -24,7 +24,7 @@
 
 This project hosts the reference implementation of our article "In Search of Empty Spheres: 3D Apollonius Diagrams on GPU".
 
-It provides the implementation of our cell update method abd multiple spatial search allowing to find contributing sites based on an LBVH (which implementation is heavily based on [1]). 
+It provides the implementation of our cell update method abd multiple spatial search allowing to find contributing sites based on an LBVH (which implementation is heavily based on [1] and [cuBQL](https://github.com/ingowald/cuBQL)). 
 
 If you use this code, please cite the following paper:
 ```bibtex
