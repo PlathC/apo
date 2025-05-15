@@ -3,7 +3,8 @@
 
 namespace apo::gpu
 {
-    // Based on: https://github.com/ingowald/cuBQL/blob/4c662fe2f01224b725b2afc2e3137f7263f565b6/cuBQL/queries/knn.h#L143
+    // Based on Ingo Wald's implementation in cuBQL: 
+    // https://github.com/ingowald/cuBQL/blob/4c662fe2f01224b725b2afc2e3137f7263f565b6/cuBQL/queries/knn.h#L143
     template<class Predicate>
     __device__ void LBVH::View::getKnns( uint32_t            k,
                                          const Real4 * const spheres,
