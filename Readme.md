@@ -65,7 +65,7 @@ cmake -S . -B out -DCMAKE_BUILD_TYPE=Release
 cmake --build out
 ```
 
-Note that the environment variable `OptiX_DIR` (which point to the root of the installation folder) must be set for the project to compile the results.
+Note that the environment variable `OptiX_DIR` (which point to the root of the installation folder) must be set for the project to compile the application demonstrating the cavity detection (`cavity-detection-gpu`) and `Boost` must be installed to compile the `precision-*` test.
 
 ## Experiments
 
