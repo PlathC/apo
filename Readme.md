@@ -46,6 +46,11 @@ Additionally, we rely on OptiX 8 and Cupti for some experiments. `OptiX_DIR` mus
 
 ## Build
 
+As the project is using git submodules, it can be cloned with:
+```shell
+git clone --recursive https://github.com/PlathC/apo.git
+```
+
 The project can be compiled on Windows with the execution of the following command in the root folder of the project:
 ```shell
 mkdir out
@@ -59,6 +64,8 @@ mkdir out
 cmake -S . -B out -DCMAKE_BUILD_TYPE=Release
 cmake --build out
 ```
+
+Note that the environment variable `OptiX_DIR` (which point to the root of the installation folder) must be set for the project to compile the results.
 
 ## Experiments
 
